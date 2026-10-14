@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  background: #2a5fd0;
+  color: white;
+  padding: 50px 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 44px;
+  margin: 0 0 10px;
+}
+
+.header p {
+  font-size: 14px;
+  margin: 0;
+}
+
+
+.timeline {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.container {
+  position: relative;
+  width: calc(50% - 35px);
+  margin-bottom: 25px;
+}
+
+.container.right {
+  margin-left: calc(50% + 35px);
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: white;
+  color: #2a5fd0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container.left .icon {
+  right: -55px;
+}
+
+.container.right .icon {
+  left: -55px;
+}
+
+
+.content {
+  background: #3f84f2;
+  border-radius: 8px;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.title {
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  font-size: 12px;
+  opacity: 0.85;
+}
+
+.value {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: right;
+}
