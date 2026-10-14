@@ -1,4 +1,4 @@
-# Program Details Timeline
+# Simple Task from NAA
 
 A clean, modern, and visually appealing Timeline component designed to display event details, course essentials, or program schedules. Built entirely with HTML and pure CSS, it features a balanced, alternating left-to-right zigzag layout along a central vertical axis.
 
